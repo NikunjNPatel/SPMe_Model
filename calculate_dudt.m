@@ -8,8 +8,8 @@ Q_c = spm_matrices.Q_c;
 us3 = u(1:N-1, :); % Cathode U
 us1 = u(N:2*N-2,:); % Anode U
 ue = u(2*N-1:(2*N-2+M_a+K_s+Q_c-3),:);
-T = u((2*N-2+M_a+K_s+Q_c-3)+1,:); % Temperature
-% T = 298.15;
+% T = u((2*N-2+M_a+K_s+Q_c-3)+1,:); % Temperature
+T = 298.15;
 
 
 % Calculate applied current density [A.m-2]
